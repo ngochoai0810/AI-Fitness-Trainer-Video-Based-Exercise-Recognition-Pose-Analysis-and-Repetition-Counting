@@ -1,0 +1,88 @@
+{
+  "predicted_label": "barbell biceps curl",
+  "repetition_counts": {
+    "barbell biceps curl": 3,
+    "push-up": 0,
+    "shoulder press": 0,
+    "squat": 0
+  },
+  "total_frames": 300,
+  "frames_with_pose": 300,
+  "processing_seconds": 26.91056320000098,
+  "processing_fps": 11.148038700282166,
+  "source_video": {
+    "filename": "demo_2.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 29.97002997002997
+  },
+  "model": {
+    "filename": "final_forthesis_bidirectionallstm_and_encoders_exercise_classifier_model.h5",
+    "sha256": "859d01a10894f88196dc2512e3c01261178c450a7942dc5447f34956bee32052",
+    "input_shape": [
+      30,
+      22
+    ],
+    "scaler_features": 660,
+    "classes": [
+      "barbell biceps curl",
+      "push-up",
+      "shoulder press",
+      "squat"
+    ],
+    "feature_layout": "30 chronological frames x 22 features, flattened frame-major before scaling"
+  },
+  "predictions": [
+    {
+      "frame_index": 29,
+      "label": "barbell biceps curl",
+      "confidence": 0.9922661185264587
+    },
+    {
+      "frame_index": 59,
+      "label": "barbell biceps curl",
+      "confidence": 0.9961134195327759
+    },
+    {
+      "frame_index": 89,
+      "label": "barbell biceps curl",
+      "confidence": 0.9964474439620972
+    },
+    {
+      "frame_index": 119,
+      "label": "barbell biceps curl",
+      "confidence": 0.9946399331092834
+    },
+    {
+      "frame_index": 149,
+      "label": "barbell biceps curl",
+      "confidence": 0.9960113763809204
+    },
+    {
+      "frame_index": 179,
+      "label": "barbell biceps curl",
+      "confidence": 0.995110809803009
+    },
+    {
+      "frame_index": 209,
+      "label": "barbell biceps curl",
+      "confidence": 0.9958243370056152
+    },
+    {
+      "frame_index": 239,
+      "label": "barbell biceps curl",
+      "confidence": 0.9961110949516296
+    },
+    {
+      "frame_index": 269,
+      "label": "barbell biceps curl",
+      "confidence": 0.9925480484962463
+    },
+    {
+      "frame_index": 299,
+      "label": "barbell biceps curl",
+      "confidence": 0.9958617687225342
+    }
+  ],
+  "warnings": []
+}

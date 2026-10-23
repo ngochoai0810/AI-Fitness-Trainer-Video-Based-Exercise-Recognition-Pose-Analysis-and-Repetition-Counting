@@ -1,0 +1,88 @@
+{
+  "predicted_label": "shoulder press",
+  "repetition_counts": {
+    "barbell biceps curl": 0,
+    "push-up": 0,
+    "shoulder press": 4,
+    "squat": 0
+  },
+  "total_frames": 315,
+  "frames_with_pose": 315,
+  "processing_seconds": 29.796576799999457,
+  "processing_fps": 10.571684194273141,
+  "source_video": {
+    "filename": "shoulder_press_form.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 29.97002997002997
+  },
+  "model": {
+    "filename": "final_forthesis_bidirectionallstm_and_encoders_exercise_classifier_model.h5",
+    "sha256": "859d01a10894f88196dc2512e3c01261178c450a7942dc5447f34956bee32052",
+    "input_shape": [
+      30,
+      22
+    ],
+    "scaler_features": 660,
+    "classes": [
+      "barbell biceps curl",
+      "push-up",
+      "shoulder press",
+      "squat"
+    ],
+    "feature_layout": "30 chronological frames x 22 features, flattened frame-major before scaling"
+  },
+  "predictions": [
+    {
+      "frame_index": 29,
+      "label": "shoulder press",
+      "confidence": 0.9958001971244812
+    },
+    {
+      "frame_index": 59,
+      "label": "shoulder press",
+      "confidence": 0.9914253950119019
+    },
+    {
+      "frame_index": 89,
+      "label": "shoulder press",
+      "confidence": 0.9962596893310547
+    },
+    {
+      "frame_index": 119,
+      "label": "shoulder press",
+      "confidence": 0.9919963479042053
+    },
+    {
+      "frame_index": 149,
+      "label": "shoulder press",
+      "confidence": 0.9962033629417419
+    },
+    {
+      "frame_index": 179,
+      "label": "shoulder press",
+      "confidence": 0.9919165968894958
+    },
+    {
+      "frame_index": 209,
+      "label": "shoulder press",
+      "confidence": 0.996225118637085
+    },
+    {
+      "frame_index": 239,
+      "label": "shoulder press",
+      "confidence": 0.9923909306526184
+    },
+    {
+      "frame_index": 269,
+      "label": "shoulder press",
+      "confidence": 0.996208667755127
+    },
+    {
+      "frame_index": 299,
+      "label": "shoulder press",
+      "confidence": 0.9929384589195251
+    }
+  ],
+  "warnings": []
+}
