@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local experiment outputs and runtime logs
+outputs/
+*.log
+verification/**/annotated.mp4
+
+# Python tooling and local environments
+**/__pycache__/
+*.pyo
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
